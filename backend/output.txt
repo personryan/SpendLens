@@ -1,0 +1,519 @@
+TRANSACTIONS:
+[
+  {
+    "raw_text": "HIIF UOB HIt UOB IF UOB UOB   ## ",
+    "parts": [
+      "HIIF UOB",
+      "HIt UOB",
+      "IF UOB",
+      "UOB",
+      "",
+      "",
+      "##",
+      ""
+    ]
+  },
+  {
+    "raw_text": "Page 3 of 4 Page 2 of 4",
+    "parts": [
+      "Page 3 of 4",
+      "Page 2 of 4"
+    ]
+  },
+  {
+    "raw_text": "Page 4 of 4",
+    "parts": [
+      "Page 4 of 4"
+    ]
+  },
+  {
+    "raw_text": "Account Transaction Details Foreign Exchange, Gold, Silver Useful Links",
+    "parts": [
+      "Account Transaction Details",
+      "Foreign Exchange, Gold, Silver",
+      "Useful Links"
+    ]
+  },
+  {
+    "raw_text": "LIM RYAN Contact Us",
+    "parts": [
+      "LIM RYAN",
+      "Contact Us"
+    ]
+  },
+  {
+    "raw_text": "Date One Account Code USD Update your address and contact details via UOB Personal Internet Banking (www.uob.com.sg/personal/index.html) Update of Address & Contacts 456 CORPORATION ROAD SINGAPORE 649813 #05-05 FX, Gold, Silver US DOLLAR 772-315-311-9 Description Unit 1 FX/Price 1.2732 Code CHF Withdrawals FX, Gold, Silver SWISS FRANC SGD Call +65 6222 2121 (Outside Singapore) 1800 222 2121 (Within Singapore) Deposits SGD Unit 100 158.7800 FX/Price Balance SGD",
+    "parts": [
+      "Date",
+      "One Account",
+      "Code",
+      "USD",
+      "Update your address and contact details via UOB Personal Internet Banking (www.uob.com.sg/personal/index.html)",
+      "Update of Address & Contacts",
+      "456 CORPORATION ROAD",
+      "SINGAPORE 649813",
+      "#05-05",
+      "FX, Gold, Silver",
+      "US DOLLAR",
+      "772-315-311-9",
+      "Description",
+      "Unit",
+      "1",
+      "FX/Price",
+      "1.2732",
+      "Code",
+      "CHF",
+      "Withdrawals",
+      "FX, Gold, Silver",
+      "SWISS FRANC",
+      "SGD",
+      "Call",
+      "+65 6222 2121 (Outside Singapore)",
+      "1800 222 2121 (Within Singapore)",
+      "Deposits",
+      "SGD",
+      "Unit",
+      "100",
+      "158.7800",
+      "FX/Price",
+      "Balance",
+      "SGD"
+    ]
+  },
+  {
+    "raw_text": "GBP Debit Card Fees and Charges BRITISH POUND 1 1.7087 JPY JAPANESE YEN 100 1,099.64 0.8568",
+    "parts": [
+      "GBP",
+      "Debit Card Fees and Charges",
+      "BRITISH POUND",
+      "1",
+      "1.7087",
+      "JPY",
+      "JAPANESE YEN",
+      "100",
+      "1,099.64",
+      "0.8568"
+    ]
+  },
+  {
+    "raw_text": "01 Aug EUR For general Debit Card fees and charges, visit http://www.uob.com.sg/debit/fees EURO BALANCE B/F 1 1.4810 HKD HONG KONG DOLLAR Email customer.service@uobgroup.com 100 16.2850",
+    "parts": [
+      "01 Aug",
+      "EUR",
+      "For general Debit Card fees and charges, visit http://www.uob.com.sg/debit/fees",
+      "EURO",
+      "BALANCE B/F",
+      "1",
+      "1.4810",
+      "HKD",
+      "HONG KONG DOLLAR",
+      "Email",
+      "customer.service@uobgroup.com",
+      "100",
+      "16.2850"
+    ]
+  },
+  {
+    "raw_text": "06 Aug AUD UOB Debit Cardmembers Agreement AUSTRALIAN DOLLAR Misc DR-Debit Card 1 0.8239 CNH (OFF-SHORE) CHINESE RENMINBI 1.30 100 17.7900 1,098.34",
+    "parts": [
+      "06 Aug",
+      "AUD",
+      "UOB Debit Cardmembers Agreement",
+      "AUSTRALIAN DOLLAR",
+      "Misc DR-Debit Card",
+      "1",
+      "0.8239",
+      "CNH",
+      "(OFF-SHORE)",
+      "CHINESE RENMINBI",
+      "1.30",
+      "100",
+      "17.7900",
+      "1,098.34"
+    ]
+  },
+  {
+    "raw_text": "CAD For UOB Debit Card Terms and Conditions and useful information on using your UOB Debit Cards, visit CANADIAN DOLLAR 04 AUG 0269 2730516 ST LOGISTICS PTE. LTD. SINGAPORE SG 1 0.9220 Gold Savings Account 1 GM 141.3700",
+    "parts": [
+      "CAD",
+      "For UOB Debit Card Terms and Conditions and useful information on using your UOB Debit Cards, visit",
+      "CANADIAN DOLLAR",
+      "04 AUG 0269 2730516",
+      "ST LOGISTICS PTE. LTD. SINGAPORE SG",
+      "1",
+      "0.9220",
+      "Gold Savings Account",
+      "1 GM",
+      "141.3700"
+    ]
+  },
+  {
+    "raw_text": "06 Aug NZD www.uob.com.sg/personal/cards/debit/tnc.html NEW ZEALAND DOLLAR Misc DR-Debit Card 1 0.7426 Silver Savings Account 4.20 1 OZ 50.0700 1,094.14",
+    "parts": [
+      "06 Aug",
+      "NZD",
+      "www.uob.com.sg/personal/cards/debit/tnc.html",
+      "NEW ZEALAND DOLLAR",
+      "Misc DR-Debit Card",
+      "1",
+      "0.7426",
+      "Silver Savings Account",
+      "4.20",
+      "1 OZ",
+      "50.0700",
+      "1,094.14"
+    ]
+  },
+  {
+    "raw_text": "04 AUG 0269 1359960",
+    "parts": [
+      "04 AUG 0269 1359960"
+    ]
+  },
+  {
+    "raw_text": "07 Aug Important Information Deposit Insurance Scheme Statement of Account Period: 01 Aug 2025 to 31 Aug 2025 Misc DR-Debit Card ST LOGISTICS PTE. LTD. SINGAPORE SG 05 AUG 0269 0441289 1.10 Page 1 of 4 1,093.04",
+    "parts": [
+      "07 Aug",
+      "Important Information",
+      "Deposit Insurance Scheme",
+      "Statement of Account",
+      "Period: 01 Aug 2025 to 31 Aug 2025",
+      "Misc DR-Debit Card",
+      "ST LOGISTICS PTE. LTD. SINGAPORE SG",
+      "05 AUG 0269 0441289",
+      "1.10",
+      "Page 1 of 4",
+      "1,093.04"
+    ]
+  },
+  {
+    "raw_text": "Singapore dollar deposits of non-bank depositors and monies and deposits denominated in Singapore dollars under the Supplementary Account Overview as at 31 Aug 2025 WWW,JUICYFRESH.COM.SG SINGAPORE SG",
+    "parts": [
+      "Singapore dollar deposits of non-bank depositors and monies and deposits denominated in Singapore dollars under the Supplementary",
+      "Account Overview as at 31 Aug 2025",
+      "WWW,JUICYFRESH.COM.SG",
+      "SINGAPORE",
+      "SG"
+    ]
+  },
+  {
+    "raw_text": "Retirement Scheme are insured by the Singapore Deposit Insurance Corporation, for up to S$100,000 in aggregate per depositor per",
+    "parts": [
+      "Retirement Scheme are insured by the Singapore Deposit Insurance Corporation, for up to S$100,000 in aggregate per depositor per"
+    ]
+  },
+  {
+    "raw_text": "12 Aug Scheme member by law. Monies and deposits denominated in Singapore dollars under the CPF Investment Scheme and CPF Retirement Misc DR-Debit Card 2.50 Amount (SGD) 1,090.54",
+    "parts": [
+      "12 Aug",
+      "Scheme member by law. Monies and deposits denominated in Singapore dollars under the CPF Investment Scheme and CPF Retirement",
+      "Misc DR-Debit Card",
+      "2.50",
+      "Amount (SGD)",
+      "1,090.54"
+    ]
+  },
+  {
+    "raw_text": "Sum Scheme are aggregated and separately insured up to S$100,000 for each depositor per Scheme member. Foreign currency deposits, dual currency investments, structured deposits and other investment products are not insured. Deposits 07 AUG 0269 0231459 WHOLLY GREENS PTE LTD Singapore SG 1,049.68",
+    "parts": [
+      "Sum Scheme are aggregated and separately insured up to S$100,000 for each depositor per Scheme member. Foreign currency",
+      "deposits, dual currency investments, structured deposits and other investment products are not insured.",
+      "Deposits",
+      "07 AUG 0269 0231459",
+      "WHOLLY GREENS PTE LTD",
+      "Singapore SG",
+      "1,049.68"
+    ]
+  },
+  {
+    "raw_text": "13 Aug UOB's Fair Dealing Commitment NETS Debit-Consumer 3.20 1,087.34",
+    "parts": [
+      "13 Aug",
+      "UOB's Fair Dealing Commitment",
+      "NETS Debit-Consumer",
+      "3.20",
+      "1,087.34"
+    ]
+  },
+  {
+    "raw_text": "We put you and your financial goals first by offering suitable products and services. You will receive relevant, timely and quality DRINKS STAL08543300",
+    "parts": [
+      "We put you and your financial goals first by offering suitable products and services. You will receive relevant, timely and quality",
+      "DRINKS STAL08543300"
+    ]
+  },
+  {
+    "raw_text": "information to make informed financial decisions. We will listen to your feedback and handle it independently and promptly. We know that xxxxxx3119",
+    "parts": [
+      "information to make informed financial decisions. We will listen to your feedback and handle it independently and promptly. We know that",
+      "xxxxxx3119"
+    ]
+  },
+  {
+    "raw_text": "14 Aug what is right for you is right for us. Please visit www.UOBGroup.com. PAYNOW-FAST 7.50 1,079.84",
+    "parts": [
+      "14 Aug",
+      "what is right for you is right for us. Please visit www.UOBGroup.com.",
+      "PAYNOW-FAST",
+      "7.50",
+      "1,079.84"
+    ]
+  },
+  {
+    "raw_text": "Deposits PIB2508147134778640",
+    "parts": [
+      "Deposits",
+      "PIB2508147134778640"
+    ]
+  },
+  {
+    "raw_text": "General Debit Card Information Nur hazah OTHR Transfer - Mobile Currency Credit Line Interest Earned^ Interest Charged^ Balance",
+    "parts": [
+      "General Debit Card Information",
+      "Nur hazah",
+      "OTHR Transfer - Mobile",
+      "Currency",
+      "Credit Line",
+      "Interest Earned^",
+      "Interest Charged^",
+      "Balance"
+    ]
+  },
+  {
+    "raw_text": "15 Aug Overseas Card Usage If you are travelling overseas, please remember to enable the magentic stripe on your UoB Debit card for overseas card use and overseas ATM cash withdrawals. To enable, simply: (1) visit uob.com.sg/overseas; (2) call 1800 386 8188 or +65 6386 8188 (if overseas); or (3) visit One Account Locked Amount\" as of 30 Aug 2025 is 500.00 772-315-311-9 Current M1 MAXX Misc DR-Debit Card 13 AUG 0269 9990015 SINGAPORE SGD SG 0.00 7.90 0.28 - 1,049.68 1,071.94",
+    "parts": [
+      "15 Aug",
+      "Overseas Card Usage",
+      "If you are travelling overseas, please remember to enable the magentic stripe on your UoB Debit card for overseas card use and overseas",
+      "ATM cash withdrawals. To enable, simply: (1) visit uob.com.sg/overseas; (2) call 1800 386 8188 or +65 6386 8188 (if overseas); or (3) visit",
+      "One Account",
+      "Locked Amount\" as of 30 Aug 2025 is 500.00",
+      "772-315-311-9",
+      "Current",
+      "M1 MAXX",
+      "Misc DR-Debit Card",
+      "13 AUG 0269 9990015",
+      "SINGAPORE",
+      "SGD",
+      "SG",
+      "0.00",
+      "7.90",
+      "0.28",
+      "-",
+      "1,049.68",
+      "1,071.94"
+    ]
+  },
+  {
+    "raw_text": "any UOB ATM.",
+    "parts": [
+      "any UOB ATM."
+    ]
+  },
+  {
+    "raw_text": "16 Aug Misc DR-Debit Card 14 AUG 0269 0065464 1.30 Total (SGD) 1,049.68 1,070.64",
+    "parts": [
+      "16 Aug",
+      "Misc DR-Debit Card",
+      "14 AUG 0269 0065464",
+      "1.30",
+      "Total (SGD)",
+      "1,049.68",
+      "1,070.64"
+    ]
+  },
+  {
+    "raw_text": "Highlights COCA-COLA SINGAPORE BE SINGAPORE SG Grand Total (SGD Equivalent') 1,049.68",
+    "parts": [
+      "Highlights",
+      "COCA-COLA SINGAPORE BE SINGAPORE SG",
+      "Grand Total (SGD Equivalent')",
+      "1,049.68"
+    ]
+  },
+  {
+    "raw_text": "2 Interest Earned/Charged for 2025",
+    "parts": [
+      "2 Interest Earned/Charged for 2025"
+    ]
+  },
+  {
+    "raw_text": "18 Aug Fair Dealing 4 As per your instructions, the amount shown has been locked and cannot be withdrawn or be used for payment transactions. There are MAS Guidelines on exceptions for recurring or due payment obligations owing to UoB. Such payments may be debited even if the settlement may cause your available balance to be lower than your locked amount. To avoid this, add more funds or lower your locked amount at a UOB ATM in Grab* 9053616fb67925fd Singapore Misc DR-Debit Card 15 AUG 0269 9191926 In our commitment to uphold the principles set out in the guidelines, we set out some of the circumstances in the  SG 21.00 1,049.64",
+    "parts": [
+      "18 Aug",
+      "Fair Dealing",
+      "4 As per your instructions, the amount shown has been locked and cannot be withdrawn or be used for payment transactions. There are",
+      "MAS Guidelines on",
+      "exceptions for recurring or due payment obligations owing to UoB. Such payments may be debited even if the settlement may cause your",
+      "available balance to be lower than your locked amount. To avoid this, add more funds or lower your locked amount at a UOB ATM in",
+      "Grab* 9053616fb67925fd Singapore",
+      "Misc DR-Debit Card",
+      "15 AUG 0269 9191926",
+      "In our commitment to uphold the principles set out in the",
+      "guidelines, we set out some of the circumstances in the",
+      "",
+      "SG",
+      "21.00",
+      "1,049.64"
+    ]
+  },
+  {
+    "raw_text": "30 Aug Disclosure Notice Singapore. Learn more at www.uob.com.sg. Interest Credit revise certain terms and conditions of a product or service notice which we may exercise our rights to unilaterally 0.04 1,049.68",
+    "parts": [
+      "30 Aug",
+      "Disclosure Notice",
+      "Singapore. Learn more at www.uob.com.sg.",
+      "Interest Credit",
+      "revise certain terms and conditions of a product or service",
+      "notice which we may exercise our rights to unilaterally",
+      "0.04",
+      "1,049.68"
+    ]
+  },
+  {
+    "raw_text": "Total we offer. Visit go.uob.com/fairdealing to find out more. 50.00 0.04 1,049.68",
+    "parts": [
+      "Total",
+      "we offer. Visit go.uob.com/fairdealing to find out more.",
+      "50.00",
+      "0.04",
+      "1,049.68"
+    ]
+  },
+  {
+    "raw_text": "Revision of UOB One With effect from 1 Sep 2025, please be informed that the",
+    "parts": [
+      "Revision of UOB One",
+      "With effect from 1 Sep 2025, please be informed that the"
+    ]
+  },
+  {
+    "raw_text": "Account Rates ONE Account Interest Overview^ interest rates for One Account will be revised. Please  End of Transaction Details:",
+    "parts": [
+      "Account Rates",
+      "ONE Account Interest Overview^",
+      "interest rates for One Account will be revised. Please",
+      "",
+      "End of Transaction Details:"
+    ]
+  },
+  {
+    "raw_text": "visit go.uob.com/one-revision for more information.",
+    "parts": [
+      "visit go.uob.com/one-revision for more information."
+    ]
+  },
+  {
+    "raw_text": "Reopening of UOB Our UOB VivoCity Branch will reopen at 1 Harbourfront Walk Amount (SGD)",
+    "parts": [
+      "Reopening of UOB",
+      "Our UOB VivoCity Branch will reopen at 1 Harbourfront Walk",
+      "Amount (SGD)"
+    ]
+  },
+  {
+    "raw_text": "VivoCity Branch Credit Card Eligible Spend #B2-39 Singapore 098585 on 15 September 2025, Monday. 0.00",
+    "parts": [
+      "VivoCity Branch",
+      "Credit Card Eligible Spend",
+      "#B2-39 Singapore 098585 on 15 September 2025, Monday.",
+      "0.00"
+    ]
+  },
+  {
+    "raw_text": "Debit Card Eligible Spend The last day of operations at our current location is",
+    "parts": [
+      "Debit Card Eligible Spend",
+      "The last day of operations at our current location is"
+    ]
+  },
+  {
+    "raw_text": "11 September 2025, Thursday. We look forward to your visit 7.90",
+    "parts": [
+      "11 September 2025, Thursday. We look forward to your visit",
+      "7.90"
+    ]
+  },
+  {
+    "raw_text": "Total Card(s) Eligible Spend at the new location.",
+    "parts": [
+      "Total Card(s) Eligible Spend",
+      "at the new location."
+    ]
+  },
+  {
+    "raw_text": "Closure of UOB Tai Our UOB Tai Seng Branch will close, with effect from 27 Sep 7.90",
+    "parts": [
+      "Closure of UOB Tai",
+      "Our UOB Tai Seng Branch will close, with effect from 27 Sep",
+      "7.90"
+    ]
+  },
+  {
+    "raw_text": "Seng Branch Bonus Interest earned 2025. The last day of operations will be on 26 Sep 2025.",
+    "parts": [
+      "Seng Branch",
+      "Bonus Interest earned",
+      "2025. The last day of operations will be on 26 Sep 2025."
+    ]
+  },
+  {
+    "raw_text": "^for July 2025 We look forward to serving you at our nearest UOB Bendemeer -",
+    "parts": [
+      "^for July 2025",
+      "We look forward to serving you at our nearest UOB Bendemeer",
+      "-"
+    ]
+  },
+  {
+    "raw_text": "and UOB PLQ Branch. Our services are also readily accessible End of Summary-",
+    "parts": [
+      "and UOB PLQ Branch. Our services are also readily accessible",
+      "End of Summary-"
+    ]
+  },
+  {
+    "raw_text": "24/7 through automated machines, phone or online banking.",
+    "parts": [
+      "24/7 through automated machines, phone or online banking."
+    ]
+  },
+  {
+    "raw_text": "New on UOB TMRW: Starting from 28 Jul'25, you can schedule future-dated",
+    "parts": [
+      "New on UOB TMRW:",
+      "Starting from 28 Jul'25, you can schedule future-dated"
+    ]
+  },
+  {
+    "raw_text": "Electronic Deferred payments with ease and securely on UOB TMRW. Visit",
+    "parts": [
+      "Electronic Deferred",
+      "payments with ease and securely on UOB TMRW. Visit"
+    ]
+  },
+  {
+    "raw_text": "Payment (EDP) go.uob.com/edp for more details.",
+    "parts": [
+      "Payment (EDP)",
+      "go.uob.com/edp for more details."
+    ]
+  },
+  {
+    "raw_text": "omissions or unauthorised debits within fourteen claim against the bank in relation thereto. claim against the bank in relation thereto. claim against the bank in relation thereto.",
+    "parts": [
+      "omissions or unauthorised debits within fourteen",
+      "claim against the bank in relation thereto.",
+      "claim against the bank in relation thereto.",
+      "claim against the bank in relation thereto."
+    ]
+  },
+  {
+    "raw_text": "claim against the bank in 4t0 ARLLMTEAA",
+    "parts": [
+      "claim against the bank in",
+      "4t0",
+      "ARLLMTEAA"
+    ]
+  }
+]
