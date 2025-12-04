@@ -8,13 +8,15 @@ class OcrParser:
         """
         Parses raw OCR result into a list of structured transactions.
         Handles both standard PaddleOCR format and PaddleX OCRResult objects.
+        Starts from page 2 and stops when "End of Transaction Details" is detected.
         """
         transactions = []
         
         # Debug: Print the type and structure of ocr_result
-        print(f"OCR Result Type: {type(ocr_result)}")
+        # print(f"OCR Result Type: {type(ocr_result)}")
         
         all_detections = []
+        end_of_transactions_found = False
         
         # Handle PaddleX OCRResult objects
         if ocr_result and len(ocr_result) > 0:
@@ -24,8 +26,13 @@ class OcrParser:
             if hasattr(first_item, 'rec_texts') or (isinstance(first_item, dict) and 'rec_texts' in first_item):
                 print("Detected PaddleX OCRResult format")
                 
-                # Process each page (OCRResult object)
+                # Process each page (OCRResult object), starting from page 2 (index 1)
                 for page_idx, page in enumerate(ocr_result):
+                    # Skip page 1 (index 0)
+                    if page_idx == 0:
+                        print(f"Skipping page {page_idx + 1} (non-transaction page)")
+                        continue
+                    
                     print(f"Processing page {page_idx + 1}")
                     
                     # Access attributes based on whether it's an object or dict
@@ -42,17 +49,43 @@ class OcrParser:
                     
                     # Reconstruct standard format: [[box], (text, confidence)]
                     for i in range(len(texts)):
+                        # Check if we've reached the end of transaction details
+                        if "End of Transaction Details" in texts[i]:
+                            print(f"Found 'End of Transaction Details' marker on page {page_idx + 1}")
+                            end_of_transactions_found = True
+                            break
+                        
                         # Convert numpy array to list if needed
                         poly = polys[i].tolist() if hasattr(polys[i], 'tolist') else polys[i]
                         detection = [poly, (texts[i], scores[i])]
                         all_detections.append(detection)
+                    
+                    # Stop processing pages if end marker found
+                    if end_of_transactions_found:
+                        break
                         
             # Handle standard PaddleOCR list format
             elif isinstance(first_item, list):
                 print("Detected standard PaddleOCR list format")
-                for page in ocr_result:
+                # Start from page 2 (index 1)
+                for page_idx, page in enumerate(ocr_result):
+                    # Skip page 1 (index 0)
+                    if page_idx == 0:
+                        print(f"Skipping page {page_idx + 1} (non-transaction page)")
+                        continue
+                    
                     if page:
-                        all_detections.extend(page)
+                        # Check for end marker in this page
+                        for detection in page:
+                            text = detection[1][0] if len(detection) > 1 else ""
+                            if "End of Transaction Details" in text:
+                                print(f"Found 'End of Transaction Details' marker on page {page_idx + 1}")
+                                end_of_transactions_found = True
+                                break
+                            all_detections.append(detection)
+                        
+                        if end_of_transactions_found:
+                            break
             else:
                 print(f"Unknown OCR result format: {type(first_item)}")
                 return []
@@ -133,10 +166,8 @@ class OcrParser:
         """
         # Combine text in the line
         texts = [det[1][0] for det in line]
-        full_text = " ".join(texts)
-        
-        # TODO: Implement specific regex or logic to identify Date, Description, Amount
-        # For now, we return a raw dict to see the structure
+        full_text = " ".join(texts)        
+
         return {
             "raw_text": full_text,
             "parts": texts
