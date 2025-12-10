@@ -3,5 +3,18 @@ services:
     build: ./backend
     volumes:
       - ./backend:/app
+      # Mount local Hugging Face cache (if it exists)
+      # On Windows: C:\Users\<username>\.cache\huggingface
+      # On Linux/Mac: ~/.cache/huggingface
+      - ${USERPROFILE}/.cache/huggingface:/root/.cache/huggingface:rw
+    environment:
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - OLLAMA_MODEL=llama3.2
+      # Disable SSL verification for corporate networks (optional)
+      - CURL_CA_BUNDLE=
+      - REQUESTS_CA_BUNDLE=
+      
+
     # Keep the container running for development purposes
     command: tail -f /dev/null
+

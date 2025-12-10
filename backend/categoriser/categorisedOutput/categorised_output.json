@@ -1,0 +1,65 @@
+[
+  {
+    "date": "06 Aug",
+    "category": "dr",
+    "amount": "1.30",
+    "company_person": "ST LOGISTICS",
+    "llm_category": "shopping"
+  },
+  {
+    "date": "06 Aug",
+    "category": "dr",
+    "amount": "4.20",
+    "company_person": "ST LOGISTICS",
+    "llm_category": "shopping"
+  },
+  {
+    "date": "07 Aug",
+    "category": "dr",
+    "amount": "1.10",
+    "company_person": "JUICYFRESH",
+    "llm_category": "dining"
+  },
+  {
+    "date": "12 Aug",
+    "category": "dr",
+    "amount": "2.50",
+    "company_person": "WHOLLY GREENS",
+    "llm_category": "shopping"
+  },
+  {
+    "date": "13 Aug",
+    "category": "nets",
+    "amount": "3.20",
+    "company_person": "DRINKS STAL08543300",
+    "llm_category": "dining"
+  },
+  {
+    "date": "14 Aug",
+    "category": "paynow",
+    "amount": "7.50",
+    "company_person": "NUR HAZAH",
+    "llm_category": "misc"
+  },
+  {
+    "date": "15 Aug",
+    "category": "dr",
+    "amount": "7.90",
+    "company_person": "M1 MAXX",
+    "llm_category": "utilities"
+  },
+  {
+    "date": "16 Aug",
+    "category": "dr",
+    "amount": "1.30",
+    "company_person": "COCA-COLA",
+    "llm_category": "shopping"
+  },
+  {
+    "date": "18 Aug",
+    "category": "dr",
+    "amount": "21.00",
+    "company_person": "GRAB* 9053616FB67925FD",
+    "llm_category": "misc"
+  }
+]
